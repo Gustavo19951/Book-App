@@ -20,6 +20,7 @@
   "app.discard": "Descartar",
   "app.save": "Guardar",
   "app.delete": "Eliminar",
+  "app.install": "Instalar App",
   "app.notFound": "No hay libros para mostrar",
   "app.notFound.comments": "No hay Comentarios para mostrar",
   "app.filter": "Filtro Dinamico",

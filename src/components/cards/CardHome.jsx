@@ -66,6 +66,7 @@ const CardHome = () => {
                 <Card className={mergeClasses(classes.card, !isTabletOrMobile && classes.paddingElements)}>
                     <div className={classes.containerBetween}>
                         <div className={classes.listElements}>
+
                             <Title1>
                                 <FormattedMessage id="app.name" defaultMessage="Book App"/>
                             </Title1>

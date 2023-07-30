@@ -35,6 +35,7 @@ import FormContainer from "../../pages/forms/FormContainer.jsx";
 import {EndSession} from "../../services/authServices/AuthService.jsx";
 import {langContext} from "../../contexts/LangContext.jsx";
 import {useMediaQuery} from "react-responsive";
+import InstallPWA from "../pwa/InstallPWA.jsx";
 
 
 const useStyles = makeStyles({
@@ -59,10 +60,6 @@ const useStyles = makeStyles({
         columnGap: tokens.spacingVerticalM
     }
 })
-
-function LockClose24Regular() {
-    return null;
-}
 
 const NavBar = () => {
     const classes = useStyles();
@@ -126,6 +123,7 @@ const NavBar = () => {
                 </div>
                 {!isTabletOrMobile ?
                     <div className={classes.container}>
+                        <InstallPWA/>
                         <Button appearance={langSelected === "Español" ? "primary" : "subtle"}
                                 icon={<LocalLanguage24Regular/>}
                                 onClick={() => lang.setLang('es')}>
