@@ -13,7 +13,7 @@ import {
     Tooltip
 } from "@fluentui/react-components";
 import {Heart24Filled, Heart24Regular, TextBulletListSquareSparkle24Regular} from '@fluentui/react-icons';
-import fileDefault from "../../assets/img/File-Default.jpeg"
+import fileDefault from "/src/assets/img/File-Default.jpeg"
 import {Col} from "fluentui-react-grid";
 import {useContext, useEffect, useState} from "react";
 import {authContext} from "../../contexts/AuthContext.jsx";

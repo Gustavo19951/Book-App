@@ -23,7 +23,7 @@ import {
     LockOpen24Regular
 } from '@fluentui/react-icons';
 
-import icon from "../../assets/img/app.png";
+import icon from "/src/assets/img/app.png";
 import {useContext, useEffect, useRef, useState} from "react";
 import {ThemeContext} from "../../contexts/ThemeContext.jsx";
 import {FormattedMessage} from "react-intl";
