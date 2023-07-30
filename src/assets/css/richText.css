@@ -1,0 +1,130 @@
+/* Basic editor styles */
+.ProseMirror {
+    /*border: 2px solid #989898;*/
+    padding: 10px;
+    border-radius: 2px;
+    background-color: var(--colorNeutralBackground5);
+    min-height: 100px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.ProseMirror-focused {
+    /*border:1px solid var(--colorNeutralBackground1Selected);*/
+}
+
+.ProseMirror > * + * {
+    margin-top: 0.35em;
+}
+
+.ProseMirror ul, .ProseMirror ol {
+    padding: 0 1rem;
+}
+
+.ProseMirror h1, .ProseMirror h2, .ProseMirror h3, .ProseMirror h4, .ProseMirror h5, .ProseMirror h6 {
+    line-height: 1.1;
+}
+
+.ProseMirror code {
+    background-color: rgba(97, 97, 97, 0.1);
+    color: #616161;
+}
+
+.ProseMirror pre {
+    background: var(--colorNeutralForegroundDisabled);
+    color: var(--colorNeutralForeground);
+    font-family: 'JetBrainsMono', monospace;
+    padding: 0.75rem 1rem;
+    border-radius: 2px;
+    margin: 20px;
+}
+
+.ProseMirror pre code {
+    color: inherit;
+    padding: 0;
+    background: none;
+    font-size: 0.8rem;
+}
+
+.ProseMirror img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ProseMirror blockquote {
+    padding-left: 1rem;
+    border-left: 2px solid var(--colorNeutralBackground1Selected);
+}
+
+.ProseMirror hr {
+    border: none;
+    border-top: 2px solid var(--colorNeutralBackground1Selected);
+    margin: 2rem 0;
+}
+
+.ProseMirror:focus {
+    outline: none;
+}
+
+.ProseMirror table {
+    border-collapse: collapse;
+    margin: 0;
+    overflow: hidden;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.ProseMirror table td, .ProseMirror table th {
+    border: 1px solid var(--colorNeutralForeground2Link);
+    box-sizing: border-box;
+    min-width: 1em;
+    padding: 3px 5px;
+    position: relative;
+    vertical-align: top;
+}
+
+.ProseMirror table td > *, .ProseMirror table th > * {
+    margin-bottom: 0;
+}
+
+.ProseMirror table th {
+    background-color: var(--colorNeutralBackground1Hover);
+    font-weight: bold;
+    text-align: left;
+}
+
+.ProseMirror table .selectedCell:after {
+    background: rgba(0, 120, 212, .4);
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.ProseMirror table .column-resize-handle {
+    background-color: var(--colorBrandForegroundLink);
+    bottom: -2px;
+    position: absolute;
+    right: -2px;
+    pointer-events: none;
+    top: 0;
+    width: 4px;
+}
+
+.ProseMirror table p {
+    margin: 0;
+}
+
+.tableWrapper {
+    padding: 1rem 0;
+    overflow-x: auto;
+}
+
+.resize-cursor {
+    cursor: ew-resize;
+    cursor: col-resize;
+}

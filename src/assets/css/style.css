@@ -1,0 +1,18 @@
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--colorBrandBackgroundInvertedPressed);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--colorSubtleBackgroundHover);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--colorNeutralStroke1Pressed);
+}

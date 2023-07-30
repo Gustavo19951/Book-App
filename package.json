@@ -1,0 +1,37 @@
+{
+    "name": "Book App",
+    "version": "0.0.1",
+    "private": false,
+    "homepage": "./",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@fluentui/react": "^8.109.5",
+        "@fluentui/react-components": "^9.27.0",
+        "@fluentui/react-hooks": "^8.6.24",
+        "@fluentui/react-icons": "^2.0.202",
+        "@tiptap/react": "^2.0.3",
+        "@tiptap/starter-kit": "^2.0.3",
+        "fluentui-react-grid": "^1.0.0",
+        "pocketbase": "^0.15.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-intl": "^6.4.2",
+        "react-rating": "^2.0.5",
+        "react-responsive": "^9.0.2",
+        "react-router": "^6.11.2",
+        "react-router-dom": "^6.11.2",
+        "react-social-icons": "^5.15.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.6",
+        "@types/react-dom": "^18.2.4",
+        "@vitejs/plugin-react": "^4.0.0",
+        "vite": "^4.1.1",
+        "vite-plugin-pwa": "^0.15.0"
+    }
+}
