@@ -10,6 +10,6 @@ export const AuthUsingEmail = async (email, password) => {
     return await pb.collection('users').authWithPassword(email, password);
 }
 export const AuthUsingOAuth = async (provider) => {
-    return await pb.collection('users').authWithOAuth2({provider: provider});
+    return await pb.collection('users').authWithOAuth2({provider: provider,createData:{emailVisibility:true}});
 }
 export const EndSession = () => pb.authStore.clear();

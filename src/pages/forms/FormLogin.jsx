@@ -48,7 +48,6 @@ const FormLogin = ({closeForm}) => {
         setError(undefined);
         authPromise.then((res) => {
             auth.setAuthDataContext(res);
-
             closeForm();
         });
         authPromise.catch((res) => {
