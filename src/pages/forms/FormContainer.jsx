@@ -1,8 +1,8 @@
 import {Col, Row} from "fluentui-react-grid";
 import {Image, makeStyles, mergeClasses, Tab, TabList, Text, tokens} from "@fluentui/react-components";
-import CommentImage from "../../assets/svg/comment.svg"
-import reviewImage from "../../assets/svg/review.svg"
-import icon from "../../assets/img/app.png";
+import CommentImage from "../../../public/svg/comment.svg"
+import reviewImage from "../../../public/svg/review.svg"
+import icon from "./../../assets/img/app.png";
 import {FormattedMessage} from "react-intl";
 import FormLogin from "./FormLogin.jsx";
 import {useState} from "react";

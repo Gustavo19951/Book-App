@@ -2,7 +2,7 @@ import {Button, Image, makeStyles, Persona, shorthands, Text, tokens} from "@flu
 import {FormattedMessage} from "react-intl";
 import {Dismiss24Regular, Info24Regular} from '@fluentui/react-icons';
 import {Drawer, DrawerBody, DrawerHeader, DrawerHeaderTitle} from "@fluentui/react-components/unstable";
-import ContractImage from "../../assets/svg/contract.svg"
+import ContractImage from "../../../public/svg/contract.svg"
 import {useBoolean} from "@fluentui/react-hooks";
 import {SocialIcon} from 'react-social-icons';
 import {useMediaQuery} from "react-responsive";

@@ -5,7 +5,7 @@ import {AuthUsingOAuth, ListProviders, RegisterUser} from "../../services/authSe
 import {Spinner} from "@fluentui/react";
 import {Alert} from "@fluentui/react-components/unstable";
 import {authContext} from "../../contexts/AuthContext.jsx";
-import google from "../../assets/svg/google.svg"
+import google from "../../../public/svg/google.svg"
 
 const useStyles = makeStyles({
     form: {
