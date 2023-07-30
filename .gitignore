@@ -29,3 +29,4 @@ PB/pb_data/logs.db-wal
 PB/pb_data/logs.db-shm
 PB/pb_data/data.db-shm
 PB/pb_data/data.db-wal
+backEnd/pb_data/logs.db
