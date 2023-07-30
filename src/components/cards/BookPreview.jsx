@@ -122,7 +122,7 @@ const BookPreview = (props) => {
     }, []);
     return (
         <>
-            <Col sizeSm={12} sizeMd={12} sizeLg={6} sizeXl={4} sizeXxl={2} sizeXxxl={2} className={classes.card}>
+            <Col sizeSm={12} sizeMd={12} sizeLg={6} sizeXl={4} sizeXxl={3} sizeXxxl={2} className={classes.card}>
                 <Card className="ms-scaleUpIn100" style={{padding: 0}}>
                     <Image src={book_image} alt={altImage}
                            fit="cover"
