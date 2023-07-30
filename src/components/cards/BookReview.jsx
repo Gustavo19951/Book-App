@@ -8,7 +8,7 @@ import EditComment from "../inputs/EditComment.jsx";
 import NewComment from "../inputs/NewComment.jsx";
 import {authContext} from "../../contexts/AuthContext.jsx";
 import {FullListComments} from "../../services/bookServices/BookService.jsx";
-import agree from "/public/svg/agree.svg";
+import agree from "/src/assets/svg/agree.svg";
 import {FormattedMessage} from "react-intl";
 
 const useStyles = makeStyles({
