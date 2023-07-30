@@ -23,14 +23,4 @@ export default defineConfig({
                 }
         })
     ],
-    build: {
-        rollupOptions: {
-            input: [
-                "/src/assets/svg/Home.svg",
-            ],
-            external: [
-                "/src/assets/Home.svg"
-            ]
-        }
-    }
 })
