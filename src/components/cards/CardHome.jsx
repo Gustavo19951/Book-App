@@ -57,14 +57,7 @@ const useStyles = makeStyles({
 const CardHome = () => {
     const classes = useStyles();
     const auth = useContext(authContext);
-    const authData = auth.getAuthDataContext();
-
     const isTabletOrMobile = useMediaQuery({query: '(max-width: 768px)'});
-
-    const handleOpenLogin = () => {
-        auth.setLoadDrawerLoginContext(true);
-    }
-    const name = authData?.model?.name !== '' ? authData?.model?.name : authData?.model?.email.split('@')[0];
 
     return (
         <Col sizeSm={12} sizeMd={12} sizeLg={12} sizeXl={12}
