@@ -29,7 +29,7 @@ export default defineConfig({
                 "/src/assets/svg/Home.svg",
             ],
             external: [
-                "/src/Home.svg"
+                "/src/assets/Home.svg"
             ]
         }
     }
