@@ -11,7 +11,7 @@ import {
     tokens
 } from "@fluentui/react-components";
 import {Col} from "fluentui-react-grid";
-import Home from "/src/assets/svg/Home.svg";
+import Home from "/public/svg/Home.svg";
 import {useContext} from "react";
 import {authContext} from "../../contexts/AuthContext.jsx";
 import {FormattedMessage} from "react-intl";

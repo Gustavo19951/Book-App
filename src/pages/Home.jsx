@@ -17,7 +17,7 @@ import {useMediaQuery} from "react-responsive";
 import {GetBookList} from "../services/bookServices/BookService.jsx";
 import BookReview from "../components/cards/BookReview.jsx";
 import {useBoolean} from "@fluentui/react-hooks";
-import empty from "/src/assets/svg/empty.svg";
+import empty from "/svg/empty.svg";
 import {Alert} from "@fluentui/react-components/unstable";
 import {Search24Regular} from "@fluentui/react-icons";
 import {FormattedMessage} from "react-intl";
