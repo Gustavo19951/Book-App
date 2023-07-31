@@ -1,5 +1,5 @@
 
-# Gus Book
+# Book App
 
 
 The Book app system is designed to review books, give ratings on them.
