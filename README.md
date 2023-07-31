@@ -44,17 +44,6 @@ Start the server
 ```bash
   npm run dev
 ```
-### Back End 
-
-```bash
-   cd backEnd
-```
-
-Start the server
-
-```bash
-   exec start.bat
-```
 
 ## Deployment
 
