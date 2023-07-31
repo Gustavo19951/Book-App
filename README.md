@@ -31,6 +31,8 @@ Go to the project directory
   cd Book-App
 ```
 
+### Front End
+
 Install dependencies
 
 ```bash
@@ -42,7 +44,17 @@ Start the server
 ```bash
   npm run dev
 ```
+### Back End 
 
+```bash
+   cd backEnd
+```
+
+Start the server
+
+```bash
+   exec start.bat
+```
 
 ## Deployment
 
