@@ -2,13 +2,15 @@
 # Gus Book
 
 
-The integrated system was born to meet the need for process automation and improve people's workflow.
+The Book app system is designed to review books, give ratings on them.
 
 ## License
 
 ## License Packages
 
 [Fluent UI Microsoft](https://github.com/microsoft/fluentui)
+
+[Fly io](https://fly.io/)
 
 [Pocketbase](https://pocketbase.io/)
 
@@ -20,13 +22,13 @@ The integrated system was born to meet the need for process automation and impro
 Clone the project
 
 ```bash
-  git clone https://github.com/Gustavo19951/Sistema_Integrado.git
+  git clone https://github.com/Gustavo19951/Book-App.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Sistema_Integrado
+  cd Book-App
 ```
 
 Install dependencies
